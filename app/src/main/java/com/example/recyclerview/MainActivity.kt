@@ -17,7 +17,6 @@ class MainActivity : AppCompatActivity() {
         setUpRecyclerView()
     }
 
-
     fun setUpRecyclerView(){
         mRecyclerView = findViewById(R.id.rvSuperheroList) as RecyclerView
         mRecyclerView.setHasFixedSize(true)
